@@ -4,7 +4,7 @@
         .section1__content{
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: space-around;
             margin: 100px 200px;  
             max-width: 100%;
             .section1__title{
@@ -63,9 +63,14 @@
                 align-items: center;
                 width: 40%;
                 img{
+                    width: 90%;
+                    height: auto;
+                    border-radius: 10px;
+                }
+                /*img:hover{
                     width: 100%;
                     height: auto;
-                }
+                }*/
             }
         }
     }

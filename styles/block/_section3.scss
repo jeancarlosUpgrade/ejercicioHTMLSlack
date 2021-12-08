@@ -1,0 +1,55 @@
+@include desktop {
+  .section3__primary {
+    width: 100%;
+    .section3__content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 100px 200px;
+      max-width: 100%;
+      .section3__title {
+        width: 40%;
+        h2 {
+          font-size: 3rem;
+          font-weight: bold;
+          margin: 24px 0 16px;
+        }
+        p {
+          font-size: 1.2rem;
+          margin: 0px 0px 16px;
+        }
+        .section3__buttons{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            div{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                img{
+                    max-width: 250px;
+                    height: auto;
+                    object-fit: contain;
+                    border-radius: 10px;
+                }
+            }
+        }
+
+      }
+      .section3__image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        video {
+          width: 100%;
+          object-fit: contain;
+          height: auto;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}
