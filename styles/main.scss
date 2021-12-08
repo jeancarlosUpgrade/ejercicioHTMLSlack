@@ -5,9 +5,13 @@
 @import "./utilities/responsive";
 
 //block - layouts
-@import "./block/grid";
+//@import "./block/grid";
+@import "./block/_nav";
+@import "./block/section1";
+@import "./block/section2";
 
 //base
 @import "./base/typo";
 @import "./base/reset";
 @import "./base/normalize";
+

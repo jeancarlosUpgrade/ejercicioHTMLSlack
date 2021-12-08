@@ -1,0 +1,76 @@
+//Esttos estilos son para desktop
+@include desktop {
+  .nav__primary {
+    width: 100%;
+    .nav__row {
+      display: flex;
+      flex-direction: row;
+      max-width: 100%;
+      justify-content: center;
+      .nav__logo {
+        margin: 0 30px 0 0;
+        display: flex;
+        align-items: center;
+        img {
+          max-width: 100px;
+          height: auto;
+        }
+      }
+      .nav__list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .nav__list__left {
+          display: flex;
+          flex-direction: row;
+          margin: 0 30px 0 0;
+          li {
+            padding: 10px;
+            font-weight: bold;
+          }
+        }
+        .nav__list__right {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          div:nth-child(1) {
+            border: solid 2px purple;
+            border-radius: 4px;
+            width: 400px;
+            height: 40px;
+            justify-content: space-around;
+            display: flex;
+            align-items: center;
+            margin: 20px;
+            a {
+              text-decoration: none;
+              text-transform: uppercase;
+              color: purple;
+              padding: 10px;
+              font-weight: bold;
+            }
+          }
+          div:nth-child(2) {
+            border: solid 2px purple;
+            border-radius: 4px;
+            display: flex;
+            height: 40px;
+            width: 300px;
+            background-color: purple;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a {
+              color: white;
+              text-decoration: none;
+              text-transform: uppercase;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
